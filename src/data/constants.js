@@ -188,7 +188,7 @@ export const projects = [
     tags: ["React Js","Node Js","Sqlite","Native-dns"],
     category: "web app",
     github: "https://github.com/Gresey/DNS-Server-Configuration-Tool.git",
-    webapp: "",
+    webapp: "https://dns-server-configuration-tool.vercel.app/",
   },
   {
     id: 4,
