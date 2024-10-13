@@ -1,9 +1,9 @@
 import codepairImage from '../assets/codepair.png';
 import dat from '../assets/dat.png';
 import dns from '../assets/dns.png';
-import healthmate from '../assets/healthmate.png';
+import healthmate from '../assets/image.png';
 import vaachak from '../assets/vaachak.png';
-import emf from '../assets/image.png';
+import emf from '../assets/emf.png';
 
 
 export const Bio = {
@@ -13,9 +13,8 @@ export const Bio = {
     "Mobile App Developer",
     "Competitive Programmer",
   ],
-  description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/gresey",
+  description:"I am an enthusiastic and adaptable individual, committed to embracing new opportunities and challenges. With a strong passion for continuous learning, I strive to consistently deliver exceptional results. My positive outlook and dedication to personal growth allow me to contribute meaningfully and drive success in any endeavor.",
+   github: "https://github.com/gresey",
   resume:
     "https://drive.google.com/file/d/1zAGmuBJ_a5C8qywR0RhVoMRVA_6fRGMH/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/gresey-patidar-31bb1322b/",
