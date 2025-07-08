@@ -4,19 +4,19 @@ import dns from '../assets/dns.png';
 import healthmate from '../assets/image.png';
 import vaachak from '../assets/vaachak.png';
 import emf from '../assets/emf.png';
-
+import blinktrack from '../assets/blinktrack.png';
+import talesync from '../assets/talesync.png';
 
 export const Bio = {
   name: "Gresey Patidar",
   roles: [
     "Full Stack Developer",
-    "Mobile App Developer",
     "Competitive Programmer",
   ],
   description:"I am an enthusiastic and adaptable individual, committed to embracing new opportunities and challenges. With a strong passion for continuous learning, I strive to consistently deliver exceptional results. My positive outlook and dedication to personal growth allow me to contribute meaningfully and drive success in any endeavor.",
    github: "https://github.com/gresey",
   resume:
-    "https://drive.google.com/file/d/1zAGmuBJ_a5C8qywR0RhVoMRVA_6fRGMH/view?usp=sharing",
+    "https://drive.google.com/file/d/120mI4xozQbsVouD5wQrSnOXaQ_VEU-Mj/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/gresey-patidar-31bb1322b/",
   twitter: "https://twitter.com/Gresey",
   
@@ -52,6 +52,11 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+      },
+      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
@@ -83,7 +88,7 @@ export const skills = [
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
       {
-        name: "Java Core",
+        name: "Java",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
@@ -129,7 +134,7 @@ export const education = [
     img: "https://images.shiksha.com/mediadata/images/1591596321php4y4orS.jpeg",
     school: "Acropolis Institute of Technology and Research,Indore",
     date: "Nov 2021 - June 2025",
-    grade: "8.35 CGPA",
+    grade: "8.51 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Information Technology at Acropolis Institute of Technology and Research,Indore. ",
     degree: "Bachelor of Technology - BTech, Computer Science and Information Technology",
   },
@@ -155,7 +160,39 @@ export const education = [
 
 export const projects = [
  
-  
+  {
+    id: 2,
+    title: "Talesync",
+    date: "",
+    description:
+      "TaleSync is a real-time collaborative journaling platform where users can create shared diary writing, upload and manage photos, set reminders, and interact with other members in the same room. ",
+    image:talesync,
+
+    tags: [
+      "React Js",
+      "Redux",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Socket.io",
+    
+    ],
+    category: "web app",
+    github: "https://github.com/Gresey/TaleSync",
+   // webapp: "code-pair-cyan.vercel.app/",
+  },
+    {
+    id: 4,
+    title: "Daily Attendance Tracker",
+
+   date: "",
+    description:"System to track and manage attendance on daily basis in organizations. The system allows teachers to mark attendance for each student in their class and view attendance reports for individual students and the entire class. Bunk monitor feature to track the number of classes a student has missed.Role Based Access Control (RBAC) to manage user roles and permissions.",
+        image:dat,
+      tags: ["HTML","CSS","Javascript","Sql","JWT"],
+    category: "web app",
+    github: "https://github.com/Gresey/Daily_Attendance_Tracker.git",
+    
+  },
   {
     id: 0,
     title: "CodePair",
@@ -178,7 +215,7 @@ export const projects = [
   },
   
   {
-    id: 1,
+    id: 3,
     title: "DNS Server Configuration Tool",
 
    date: "",
@@ -189,20 +226,21 @@ export const projects = [
     github: "https://github.com/Gresey/DNS-Server-Configuration-Tool.git",
     webapp: "https://dns-server-configuration-tool.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Daily Attendance Tracker",
+   {
+    id: 5,
+    title: "BlinkTrack",
 
    date: "",
-    description:"System to track and manage attendance on daily basis in organizations. The system allows teachers to mark attendance for each student in their class and view attendance reports for individual students and the entire class. Bunk monitor feature to track the number of classes a student has missed.Role Based Access Control (RBAC) to manage user roles and permissions.",
-        image:dat,
-      tags: ["HTML","CSS","Javascript","Sql","JWT"],
-    category: "web app",
-    github: "https://github.com/Gresey/Daily_Attendance_Tracker.git",
-    
+    description:"A location tracking app using Firebase, enabling users to create circles, share live locations, and send SOS alerts to trusted contacts.",
+          image:blinktrack,
+     tags: ["Flutter","Dart","Riverpod","Firebase Firestore","Firebase Realtime DB","Google Maps Flutter"],
+    category: "android app",
+    github: "https://github.com/Gresey/BlinkTrack.git",
+
   },
+
   {
-    id: 2,
+    id: 7,
     title: "HealthMate",
 
    date: "",
@@ -214,7 +252,7 @@ export const projects = [
     
   },
   {
-    id: 3,
+    id: 6,
     title: "EMF Detector ",
 
    date: "",
@@ -226,7 +264,7 @@ export const projects = [
     
   },
   {
-    id: 4,
+    id: 8,
     title: "Vaachak",
 
    date: "",
@@ -237,6 +275,7 @@ export const projects = [
     github: "https://github.com/Gresey/Vaachak-TecHacks.git",
     
   },
+   
  
     
  
